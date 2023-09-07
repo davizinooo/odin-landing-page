@@ -29,7 +29,8 @@ html body {
     align-content: center;
 }
 
-.header-link a, p{
+.header-link a,
+p {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
@@ -62,7 +63,7 @@ html body {
 
 .discription button {
     color: white;
-    background-color: #3882F6 ;
+    background-color: #3882F6;
     margin-top: auto;
     font-weight: bold;
     border-style: none;
@@ -70,11 +71,53 @@ html body {
     width: 120px;
     height: 40px;
     font-size: 18px;
-    
+
 }
 
 
 .container img {
-width: 50%;
+    width: 50%;
 
+}
+
+#main {
+    background-color: #F9FAF8;
+    margin: auto;
+    padding-top: 0px;
+    width: 800px;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    flex: 1;
+    align-items: center;
+}
+
+.item img {
+    height: 150px;
+    width: 150px;
+    flex: 1 0 auto;
+    border-style: solid;
+    border-radius: 9px;
+    border-color: #3882F6;
+}
+
+.item p {
+    color: #1F2937;
+    height: 150px;
+    width: 150px;
+    text-align: center;
 }
