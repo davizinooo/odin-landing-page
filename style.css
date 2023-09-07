@@ -45,7 +45,6 @@ p {
     background-color: #1F2937;
     gap: 30px;
     height: 300px;
-
 }
 
 .discription {
@@ -80,13 +79,6 @@ p {
 
 }
 
-#main {
-    background-color: #F9FAF8;
-    margin: auto;
-    padding-top: 0px;
-    width: 800px;
-}
-
 #title {
     display: flex;
     flex-direction: column;
@@ -96,6 +88,15 @@ p {
     font-size: 36px;
     padding: 10px;
 }
+
+#main {
+    background-color: #F9FAF8;
+    margin: auto;
+    padding-top: 0px;
+    column-gap: 0px;
+    width: 800px;
+}
+
 
 .item {
     display: flex;
@@ -120,4 +121,26 @@ p {
     height: 150px;
     width: 150px;
     text-align: center;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;
+    gap: 10px;
+    width: 800px;
+
+}
+.quote {
+font-size: 36px;
+margin: 0px;
+
+}
+
+.author {
+align-self: end;
+margin: 0px;
+margin-right: 30px;
+font-weight: bold;
 }
